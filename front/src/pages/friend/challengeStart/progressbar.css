@@ -1,0 +1,16 @@
+/* ./progressbar.css */
+.progress-bar-container {
+  position: relative;
+  width: 10px; /* 바의 너비 */
+  height: 100%; /* 화면 전체 높이 */
+  background-color: #e5e7eb; /* 배경색 (연한 회색) */
+  margin: 0 auto;
+}
+
+.progress-bar {
+  position: absolute;
+  bottom: 0; /* 아래에서 시작 */
+  width: 100%; /* 전체 너비 */
+  background-color: #4299e1; /* 초록색 (Tailwind 'bg-green-500') */
+  transition: height 1s linear; /* 부드럽게 줄어드는 애니메이션 */
+}
